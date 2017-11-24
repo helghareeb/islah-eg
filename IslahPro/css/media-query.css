@@ -1,0 +1,221 @@
+
+@media(max-width: 1050px){
+    .newsSec .owl-nav .icon-arrow-right{
+        right:-4%;
+    }
+    .newsSec .owl-nav .icon-arrow-left{
+        left:-2%;
+    }
+}
+@media (max-width: 767px) {
+    header .navbar{
+        margin-top: 40px;
+    }
+    .afterCalling .phoneSec{
+        margin-top:0px;
+        margin-bottom: 50px;
+    }
+    .afterCalling .globalSec h5{
+        margin-bottom:30px;
+    }
+    .aboutSec .content .contentItem p{
+        font-size:14px;
+    }
+    .aboutSec .content .contentItem i{
+        font-size: 28px;
+    }
+    .newsSec .owl-nav .icon-arrow-right{
+        right:-2% ;
+    }
+    .callSec form .form-group .form-control[type="email"]{
+         width:540px;
+         margin-right:auto;
+         margin-left:auto;
+     }
+    .callSec form .form-group .form-control[type="text"]{
+        width:540px;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .newsSec .owl-nav .icon-arrow-left{
+        left:4% ;
+    }
+    header .navbar .navbar-nav{
+        flex-direction: column;
+        background-color: #fff;
+        text-align: center;
+        margin-top:20px;
+    }
+    header .sliderSec .owl-carousel .itemX .content h2{
+        font-size:45px;
+    }
+    header .navbar .navbar-nav .nav-item:first-of-type{
+        margin-right: 0px;
+        margin-top:15px;
+    }
+    header .navbar .navbar-nav .nav-item:last-of-type{
+        margin-bottom:15px;
+    }
+    .quraanSec .content{
+        width:200px;
+        height: 45px;
+    }
+    .jobsSec .post-content p{
+        margin-right: 0px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .aboutSec .contentNumber h4:nth-of-type(2){
+        height:155px;
+    }
+}
+@media (max-width:575px) {
+    .navbar .navbar-brand{
+        margin: 12px 0px 12px 50px !important;
+    }
+    .projectSec .differ .content p{
+        font-size:14px;
+    }
+    .lastSec .content h4{
+        font-size:14px;
+        font-family: 'dinbold';
+    }
+    .newsSec.video .title h3{
+        margin:45px auto;
+    }
+    .newsSec .title h3{
+        margin:45px auto;
+    }
+    .newsSec.video a{
+        margin-top:20px;
+    }
+    .projectSec .differ .content h4{
+        font-size:16px;
+    }
+    .aboutSec .content .contentItem{
+        margin-right:auto !important;
+        margin-top:0px;
+        margin-bottom: 40px;
+    }
+    .newsSec{
+        padding-bottom:50px;
+    }
+    .newsSec .owl-prev, .newsSec .owl-next{
+        display:inline-block;
+        margin-top:20px;
+    }
+    .newsSec .owl-nav .icon-arrow-right,.newsSec .owl-nav .icon-arrow-left{
+        position:relative;
+        display:inline-block !important;
+        right:0px;
+        left:0px;
+        top:0px;
+        transform: none;
+        margin-right:10px;
+        margin-left:10px;
+    }
+    .newsSec .owl-nav .icon-arrow-left{
+    }
+    .newsSec .owl-nav{
+        font-size: 18px;
+    }
+    .aboutSec .content .contentItem:last-child{
+        margin-bottom: 40px !important;
+    }
+    .jobsSec .post-content p{
+        font-size: 18px;
+    }
+    .aboutSec .content.two .contentItem.fTwo{
+        margin-bottom: 40px;
+    }
+    .aboutSec .content .contentItem:before{
+        display: none;
+    }
+    .aboutSec .contentNumber p{
+        display:none;
+    }
+    .aboutSec .contentNumber h4{
+        display: none;
+    }
+    .navbar .navbar-nav{
+        box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.08),-2px -2px 2px 0px rgba(0, 0, 0, 0.01);
+    }
+    .jobsSec .post-content p{
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 60px;
+        margin-top:0px;
+    }
+    .jobsSec .img-content img{
+        margin-bottom: 30px;
+    }
+    .container{
+        margin:0px;
+    }
+    header .navbar .navbar-toggler{
+        margin-top:15px;
+    }
+}
+@media(max-width:400px) {
+    .newsSec .newsContent {
+        width: 230px;
+        height: 160px;
+    }
+}
+@media (max-width: 991px){
+    header .sliderSec .owl-carousel .itemX .content{
+        top:55%;
+    }
+    .jobsSec .post-content p{
+        margin-right: 0px;
+    }
+    header .sliderSec .owl-carousel .itemX .content h2{
+        font-size:55px;
+    }
+    header .sliderSec .owl-carousel .itemX .content h4{
+        font-size: 17px;
+    }
+    header .sliderSec .owl-carousel .itemX .content h5{
+        font-size: 17px;
+    }
+    .aboutSec .contentNumber p:first-child{
+        margin-top: 85px;
+    }
+    .aboutSec .content .contentItem:before{
+        right:-40%;
+    }
+    .aboutSec .content.two .contentItem::before{
+        left: -10%;
+    }
+    .aboutSec .contentNumber h4:first-of-type{
+        height:95px;
+    }
+    .aboutSec .contentNumber h4:nth-of-type(2){
+        height:145px;
+    }
+    .aboutSec .contentNumber h4:nth-of-type(4){
+        height:155px;
+    }
+    .aboutSec .contentNumber h4:last-of-type{
+        height:85px;
+    }
+}
+@media(max-width: 400px) {
+    header .sliderSec .owl-carousel .itemX .content h4{
+        font-size: 15px;
+    }
+    header .sliderSec .owl-carousel .itemX .content h5{
+        font-size: 15px;
+    }
+    .aboutSec .content .contentItem p{
+        font-size:13px;
+    }
+    .aboutSec .content .contentItem i{
+        margin: 10px 0px 5px 0px;
+    }
+}
+@media (max-width: 350px) {
+    header .sliderSec .arrow-down{
+        font-size: 8px;
+    }
+}
